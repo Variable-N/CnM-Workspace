@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	width:100%;
+	height: 100vh;
+	background-image: url('image.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	width:100%;
+	height: 15vh;
+	background:rgb(17, 45, 78);
+	color: rgb(249, 247, 247);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav .logo{
+	width:25%;
+	text-align: center;
+	color: rgb(214,125,62);
+}
+nav .menu{
+	width:40%;
+	display: flex;
+	justify-content: space-around;
+}
+nav .menu a{
+	width:33.3%;
+	text-decoration: none;
+	color: rgb(249, 247, 247);
+	font-weight: bold;
+}
+nav .menu a:hover{
+	color:  rgb(214, 125, 62);
+}
+.footerr{
+	position: absolute;
+	background: rgb(17, 45, 78);
+	width: 100%;
+
+
+}
+.container{
+	padding: 0px 0px 0px 300px;
+	max-width: 1500px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-col{
+   width: 50%;
+}
+.footer-col h4{
+	font-size: 18px;
+	left: 0px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -5px;
+	background-color: #e91e63;
+	height: 1px;
+	box-sizing: border-box;
+	width: 70px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	left: 150px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.txt{
+    position: absolute;
+    top:45%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+	background:rgb(17, 45, 78);
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgb(253, 253, 255);
+}
+.txt .submitinfo input{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 65%;
+    width: 80%;
+    border:none;
+}
+.subbutton{
+    position: absolute;
+    top:80%;
+    left: 50%;
+}
+.basic{
+    position: absolute;
+    top:5%;
+    left: 10%;
+}
